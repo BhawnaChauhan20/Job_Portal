@@ -1,16 +1,14 @@
-import React from 'react'
 
-
+import Navbar from './Components/Navbar'
+import Section from './Components/Section'
 function App() {
 
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline bg-red-300">
-      Hello world!
-    </h1>
-        
-    </>
+    <div className="bg-hero-pattern bg-cover bg-center min-h-screen bg-no-repeat">
+      <Navbar/>
+       <Section/>
+    </div>
   )
 }
 
