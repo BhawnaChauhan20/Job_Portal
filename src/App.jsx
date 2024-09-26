@@ -1,11 +1,18 @@
+
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Login from './Components/Login';
 import Navbar from './Components/Navbar';
 import Section from './Components/Section';
+=======
+
+import Navbar from './Components/Navbar'
+import Section from './Components/Section'
+
 function App() {
 
 
   return (
+
     <>
     <Router>
       <div className="bg-hero-pattern bg-cover bg-center h-full min-h-screen bg-no-repeat w-full">
@@ -19,6 +26,12 @@ function App() {
       </div>
     </Router>
     </>
+=======
+    <div className="bg-hero-pattern bg-cover bg-center min-h-screen bg-no-repeat">
+      <Navbar/>
+       <Section/>
+    </div>
+
   )
 }
 
