@@ -14,7 +14,7 @@ function App() {
           {/* Main section */}
           <Route path="/" element={<Section />} />
           {/* Login page */}
-          <Route path="/login" element={<Login />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </div>
     </Router>

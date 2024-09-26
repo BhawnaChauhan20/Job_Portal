@@ -13,22 +13,42 @@ function Section() {
           </div>
   
           {/* Search Inputs */}
-          <div className="mt-7 flex flex-col space-y-4 lg:flex-row lg:space-x-6  px-4 lg:px-0">
-            <input
-              type="text"
-              placeholder="Job title, Company..."
-              className="border pl-4 pt-2 pb-2 pr-2 placeholder-gray-500 placeholder-opacity-35 focus:ring-gray-600 focus:border-l-gray-600 rounded-md flex-grow md:w-auto"
-            />
-            <input
-              type="text"
-              placeholder="Select Region"
-              className="border pl-4 pt-2 pb-2 pr-2 placeholder-gray-500 placeholder-opacity-35 focus:ring-gray-600 focus:border-l-gray-600 rounded-md flex-grow md:w-auto"
-            />
-            <input
-              type="text"
-              placeholder="Select Job Type"
-              className="border pl-4 pt-2 pb-2 pr-2 placeholder-gray-500 placeholder-opacity-35 focus:ring-gray-600 focus:border-l-gray-600 rounded-md flex-grow md:w-auto"
-            />
+          <div className="mt-7 flex flex-col gap-y-4 lg:flex-row lg:space-x-8  ">
+            
+            <select className="border pl-4 pt-2 pb-2 pr-2 text-gray-500 focus:ring-gray-600 focus:border-l-gray-600 rounded-md flex-grow md:w-auto "
+            >
+              <option value="" disabled selected hidden>Job Role</option>
+              <option value="Frontend Developer">Frontend Developer</option>
+              <option value="Full Stack Developer">Full Stack Developer</option>
+              <option value="Android Developer">Android Developer</option>
+              <option value="iOS Developer">iOS Developer</option>
+             </select>
+             <select
+              className="border pl-6 pt-2 pb-2 pr-4 text-gray-500 focus:ring-gray-600 focus:border-l-gray-600 rounded-md flex-grow md:w-auto"
+            >
+              <option value="" disabled selected hidden>Job Type</option>
+              <option value="Remote">Full-Time</option>
+              <option value="In-Office">part-Time</option>
+              <option value="hybrid">Contract</option>
+              
+              </select>
+            <select
+              className="border pl-6 pt-2 pb-2 pr-4 text-gray-500 focus:ring-gray-600 focus:border-l-gray-600 rounded-md flex-grow md:w-auto"
+            >
+              <option value="" disabled selected hidden>Location</option>
+              <option value="Remote">Remote</option>
+              <option value="In-Office">In-Office</option>
+              <option value="hybrid">Hybrid</option>
+              
+              </select>
+              <select className="border pl-6 pt-2 pb-2 pr-4 text-gray-500 focus:ring-gray-600 focus:border-l-gray-600 rounded-md flex-grow md:w-auto "
+            >
+              <option value="" disabled selected hidden>Experience</option>
+              <option value="Frontend Developer">Fresher</option>
+              <option value="Full Stack Developer">Junior Level</option>
+              <option value="Android Developer">Mid Level</option>
+              <option value="iOS Developer">Senior Level</option>
+             </select>
             <div>
               <button className="border bg-teal-300 pt-2 pb-2 pl-3 pr-3 rounded-md text-black font-medium hover:bg-teal-500 active:bg-teal-600 w-full sm:w-auto">
                 Search Job
