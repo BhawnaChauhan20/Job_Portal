@@ -57,15 +57,5 @@ Your portfolio should now be running on `http://localhost:5173`.
 
 You can navigate through the various sections of the portfolio using the navigation menu. Each section provides detailed information about my skills, projects, and background. The project links will take you to live demos or GitHub repositories.
 
-## Contact
-
-Feel free to reach out if you have any questions or suggestions:
-
-- **Email**: [sidhantgupta5159@gmail.com](sidhantgupta5159@gmail.com) *copy the mail from here
-- **LinkedIn**:  [linkedin.com/in/sidhant](https://linkedin.com/in/sidhant-gupta-2543b2237)
-- **GitHub**: [github.com/Sidhant-gupta07](https://github.com/Sidhant-gupta07)
-
----
-
 Thank you !
 
